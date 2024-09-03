@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio</title>
+</head>
+<body>
+    <div>
+        <h1>My Bio</h1>
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Sample project - Acme/img/img.jpg/Screenshot_20240812-120333~2.png" alt="Your Picture" width="150">
+        <p> Hello! I am Mary Danielle Falamig a second year college student studied at Kolehiyo Ng Lungsod ng Lipa, pursuing a degree of Bachelor of Science In Computer Scienece.</p>
+    </div>
+
+     <hr>
+
+    <div>
+        <button onclick="window.open('lyrics.html', '_blank')">Open Lyrics in New Tab</button>
+        <button onclick="window.location.href='lyrics.html'">Open Lyrics in Same Tab</button>
+        <button onclick="openFullScreenWindow('lyrics.html')">Open Lyrics in New Full Screen Window</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Connect with me:</h2>
+        <p><a href="https://www.facebook.com/mary.falamig?mibextid=ZbWKwL ">Facebook</a></p>
+        <p><a href=" https://www.instagram.com/glxsyy_daniella?igsh=M3p3aWIzMDMxamtw ">Instagram</a></p>
+    </div>
+
+    <script>
+        function openFullScreenWindow(url) {
+            var newWindow = window.open(url, '_blank', 'fullscreen=yes');
+            newWindow.focus();
+        }
+    </script>
+</body>
+</html>
